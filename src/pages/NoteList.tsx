@@ -32,7 +32,7 @@ export function NoteList({
   return (
     <>
       <Row className="align-items-center mb-4">
-        <Col>col 1</Col>
+        <Col>Note Taking</Col>
         <Col xs="auto">
           <Stack gap={2} direction="horizontal">
             <Link to={"/new"}>
